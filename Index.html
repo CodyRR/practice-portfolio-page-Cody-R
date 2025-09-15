@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Cody's Portfolio</h1>
+        <h2>Currently learning for Software Development</h2>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#project">Current Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About me</h2>
+            <p>I am from Blue Springs, Missouri.  I have a BS in Computer Science.  I am currently working towards Software Development for my career.<br>
+            My hobbies include gaming, golfing, and programming. <br>
+            A few years ago, I remade the classic arcade game Pac-Man from scratch (with the exception of the art). <br>
+            I really like the idea of working with video games.  It is interesting to see how a game can be made and what tricks developers use to make a game work.
+            </p>
+        </section>
+        <section id="project">
+            <h2>Current Projects</h2>
+            <ul>
+                <li>I really want to get my Pac-Man game up and running and cleaning the code.</li>
+                <li>In my Software Development class, we started working on personal projects.  My current one is making Monopoly. <br>
+                    In future lessons, I hope to be able to use UI instead of the Terminal</li>
+                <li>Future Project.  I want to be able to modify a few existing games.  There are a few games I really want to work on</li>
+            </ul>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <table border="2">
+                <tr>
+                    <th>Skills</th>
+                    <th>Proficiency</th>
+                </tr>
+                <tr>
+                    <td>Java</td>
+                    <td>3/5</td>
+                </tr>
+                <tr>
+                    <td>Gaming</td>
+                    <td>5/5</td>
+                </tr>
+                <tr>
+                    <td>Organization</td>
+                    <td>4/5</td>
+                </tr>
+                <tr>
+                    <td>Sleep</td>
+                    <td>2/5</td>
+                </tr>
+            </table>
+            <br>
+            <form action="/submit" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="nameField" name="nameField"><br>
+                <label for="email">Email:</label>
+                <input type="email" id="emailField" name="emailField"><br>
+                <label for="message">Message:</label><br>
+                <textarea name="message" id="messageField"></textarea><br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <section id="contact">
+
+        </section>
+    </main>
+    <footer>
+        <p>@Cody R. portfolio 2025</p>
+    </footer>
+</body>
+</html>
