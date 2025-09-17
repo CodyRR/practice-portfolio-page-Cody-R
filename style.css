@@ -1,0 +1,62 @@
+
+h1 {
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-family: monospace;
+}
+
+body {
+    background-color: rgb(3, 237, 237);
+    text-align: center;
+}
+
+li {
+    font-size: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+table {
+    width: 20%;
+}
+
+table, th, td {
+  border:2px solid black;
+  border-collapse: collapse;
+}
+
+th {
+    background-color: rgb(187, 212, 212);
+}
+
+td:nth-child(even){
+  background-color: #D6EEEE;
+}
+
+#fancyFooter{
+    font-family: 'Brush Script MT', cursive;;
+}
+
+.aboutPara {
+    font-size: 20px;
+}
+
+.centerList {
+    text-align: left;
+    list-style-position: inside;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.skillTable {
+     margin: 0px auto;
+     background-color: aliceblue;
+}
+
+.formText {
+    font-size: 20px;
+    padding: 5px;
+}
